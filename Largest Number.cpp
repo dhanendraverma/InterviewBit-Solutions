@@ -2,7 +2,7 @@
 bool comp(int a, int b){
     string x = to_string(a); //converting int to string
     string y = to_string(b);
-    return (x+y)>(y+x); //concatenate them in both ways and compare them r
+    return (x+y)>(y+x); //concatenate them in both ways and compare them 
 }
 
 string Solution::largestNumber(const vector<int> &A) {
